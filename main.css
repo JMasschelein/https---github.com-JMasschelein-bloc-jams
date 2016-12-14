@@ -72,7 +72,7 @@ html {
 .hero-content {
      position: relative; /* positioning will be explained in a resource */
      min-height: 600px;  /* hero content element must be _at least_ 600 pixels */
-     background-image: url(https://bloc-global-assets.s3.amazonaws.com/images-frontend/Bloc%20Jams%20Assets/bloc_jams_bg.jpg);
+     background-image: url(Background/bloc_jams_bg.jpg);
      background-repeat: no-repeat;
      background-position: center center;
      background-size: cover;
@@ -123,6 +123,10 @@ html {
  .container {
      margin: 0 auto;
      max-width: 64rem;
+ }
+
+ .container.narrow {
+     max-width: 56rem;
  }
 
 /* Medium and small screens (640px) */
