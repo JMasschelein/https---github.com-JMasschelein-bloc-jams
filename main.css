@@ -62,17 +62,25 @@ html {
      text-decoration: none;
      cursor: pointer;
  }
+
+ .links-container .navbar-link:active {
+      background-color: white;
+ }
  
    /* #5 */
  .links-container .navbar-link:hover {
      color: rgb(233,50,117);
  }
+
+
+
+
  
 
 .hero-content {
      position: relative; /* positioning will be explained in a resource */
      min-height: 600px;  /* hero content element must be _at least_ 600 pixels */
-     background-image: url(https://bloc-global-assets.s3.amazonaws.com/images-frontend/Bloc%20Jams%20Assets/bloc_jams_bg.jpg);
+     background-image: url(Background/bloc_jams_bg.jpg);
      background-repeat: no-repeat;
      background-position: center center;
      background-size: cover;
@@ -153,3 +161,4 @@ html {
       html { font-size: 120%; }
  }
 
+a:active { color: }
