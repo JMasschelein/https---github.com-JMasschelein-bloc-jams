@@ -95,9 +95,15 @@ a:active { color: }
  }
  
    /* #5 */
- .links-container .navbar-link:hover {
+  .navbar-link:hover {
      color: rgb(233,50,117);
+     
  }
+
+.links-container:active{
+    background-color: white;
+    
+}
 
 .clearfix::before,
 .clearfix::after {
